@@ -1,70 +1,34 @@
-# Getting Started with Create React App
+# Crud de produtos com imagem 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![Logo do R](https://lh3.googleusercontent.com/pw/AM-JKLXr5efFI6VNVWB0AZZ8sYn09BzmMxpOpUVdvnWbFcTEBE-ozZYUkiLPWjNlsVha0iLY70O640mX2ToOuMOY6fAjDbgY2fbStXsMWtkqIGOeItomVLp-kTmvSwQcoNGk2PJ4oPPPRO0JvZ84v-CakoZaTw=w533-h903-no?authuser=0)
 
-## Available Scripts
+## Sobre o Autor
+<img align="left" width="190" height="190" margin-right="150px" src="https://lh3.googleusercontent.com/pw/AM-JKLXhmwZXlDQxwQTG3f0HIUpyh4Yg5oyRCR9GZ09GVuaEGe2umH6R6TAYJeJgWCVEKROa7pQgbFVBQEaOwJ3VLGoNpDcTJ1p0yTvwLK0CJf7q9xh7Xnf1sS-vG7temrijQpiRitZC-c9e7THtDNVI5FQPkA=w169-h154-no?authuser=0"> Oi, meu nome é Pedro Savio tenho 22 anos e atualmente faço engenharia mecânica(UFCG). acabei descobrindo um novo mundo na programação e decidi me aprofundar mais nele.
 
-In the project directory, you can run:
+## <br /><br /> <br /><br /><br /><br />Tecnologias utilizadas
+1. React
+2. Context Api
+3. Hooks (useStates, useEffect)
+4. TypeScript
 
-### `npm start`
+## <br /><br /> <br /><br /><br /><br />Lembretes
+hooks utilizados :
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+useState: é um Hook que te permite adicionar o state do React a um componente de função
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+useEffect: Usando esse Hook, você diz ao React que o componente precisa fazer algo apenas depois da renderização. 
+O React ira se lembrar da função que você passou (nos referiremos a ele como nosso “efeito”), e chamá-la depois
+ que realizar as atualizações do DOM. 
 
-### `npm test`
+ o que é context Api:
+ A Context API é uma biblioteca que pode ser usada para autenticação, armazenamento de dados de formulários, 
+ configurações de temas ou outras funcionalidades que uma aplicação possa precisar.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+======================================================================================
+ em dataProvider vc escolhe os valores do contexto dos dados armazenados.
+ 
+   const[todos,setTodos] = useState([
+        {name: "Produto 1 ", preco: 10, select:false, foto: "link"}
+    ])
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

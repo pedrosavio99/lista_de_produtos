@@ -1,0 +1,33 @@
+hooks utilizados :
+
+useState: é um Hook que te permite adicionar o state do React a um componente de função
+
+useEffect: Usando esse Hook, você diz ao React que o componente precisa fazer algo apenas depois da renderização. 
+O React ira se lembrar da função que você passou (nos referiremos a ele como nosso “efeito”), e chamá-la depois
+ que realizar as atualizações do DOM. 
+
+ o que é context Api:
+ A Context API é uma biblioteca que pode ser usada para autenticação, armazenamento de dados de formulários, 
+ configurações de temas ou outras funcionalidades que uma aplicação possa precisar.
+
+======================================================================================
+ em dataProvider vc escolhe os valores do contexto dos dados armazenados, 
+ no entanto eu preciso descbiri como pegar a 
+ 
+   const[todos,setTodos] = useState([
+        //AQUI EU PRECISO DESCOBRIR COMO CHAMAR A FOTO
+        {name: "Produto 1 ", preco: 10, select:false}
+    ])
+
+
+
+=========================================================================
+
+DEPLY REACT NO HEROKU
+
+ei o projeto ja precisa estar upado no git hub pra poder seguir os proximos passos...
+
+apois baixa o heroku cli vc faz o login 
+
+    heroku login
+

@@ -1,25 +1,39 @@
-import logo from './logo.svg';
+
+import { Component } from "react/cjs/react.production.min";
 import './App.css';
+import Formulario from "./components/Forminputs";
+import Navbar from "./components/Navbar";
+import Lista2 from "./components/lista2";
+import { DataProvider } from "./components/DataProvider";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+export class App extends Component{
+  state = {
+    profileImg:'https://cdn-icons-png.flaticon.com/512/2871/2871658.png',
+    iconefoto: 'https://iconape.com/wp-content/files/xh/367685/svg/send-logo-icon-png-svg.png',
+    fotologo: 'https://i.pinimg.com/originals/77/c3/66/77c366436d8bd35fe8b3ce5b8c66992e.png',
+    enviarfoto: 'https://static.thenounproject.com/png/1156518-200.png'
+  }
 
-export default App;
+
+  render() {
+    const{profileImg} = this.state
+    const{fotologo} = this.state
+    const{iconefoto} = this.state
+    const{enviarfoto} = this.state
+    return(
+
+      <DataProvider>
+        <div className="App2"> 
+           
+          <Navbar/>
+          <Formulario/>
+          <Lista2/>
+        </div>
+      </DataProvider>
+
+
+    )}}
+
+export default App
+
+
